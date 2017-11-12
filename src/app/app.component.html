@@ -1,0 +1,43 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
+  <div class="container">
+
+  <!--Header Navbar-->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-nav">
+        <span class="sr-only">Alternar navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="index.html" class="navbar-brand">
+        <span class="img-logo">Spotify</span>
+        <!--<img src="imagens/spotify.svg" class="img-responsive" style='height: 40px; width: 132px'>-->
+      </a>
+      
+    </div>
+  <!--Navbar-->
+  <div class="collapse navbar-collapse" id="barra-nav">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="/sobre" routerLinkActive="active">Sobre</a></li>
+      <li><a routerLink="/baixar" routerLinkActive="active">Baixar</a></li>
+      <li class="divisor" role="separator"></li>
+      <li><a routerLink="/registro" routerLinkActive="active">Inscreve-se</a></li>
+      <li><a routerLink="/login" routerLinkActive="active">Entrar</a></li>
+    </ul>
+  </div>
+    
+  </div> <!--Container-->
+</nav><!--/nav-->
+
+<div class="row" style="margin-top:10em">
+  <div class="texto-capa col-md-6">
+      <h1>Música para todos</h1>
+      <a href="#" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotify Free</a>
+      <a href="#" class="btn btn-custom btn-branco btn-lg">Obter o Spotify Premmium</a>
+  </div>
+  <div class="col-md-6">
+      <router-outlet></router-outlet>
+  </div>
+</div>
+
